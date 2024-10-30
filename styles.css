@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first-section {
+    background-color: #1f2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 20px;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-right: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+}
+
+.navbar-left, 
+.navbar-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.one,
+.two {
+    margin-right: 60px;
+}
