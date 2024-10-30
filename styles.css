@@ -4,19 +4,13 @@
 }
 
 .first-section {
-    background-color: #1f2937;
+    background-color: rgb(29, 45, 77);
 }
 
-.header-logo {
-    font-size: 24px;
-    color: #f9faf8;
-    margin-left: 20px;
-}
-
-.header-link {
-    font-size: 18px;
-    color: #e5e7eb;
-    margin-right: 20px;
+.logo {
+    color: white;
+    font-size: 38px;
+    padding: 20px;
 }
 
 .navbar {
@@ -24,18 +18,19 @@
     justify-content: space-between;
 }
 
-ul {
-    display: flex;
-}
-
-.navbar-left, 
 .navbar-right {
     display: flex;
-    justify-content: space-between;
+    color: white;
     align-items: center;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.links {
+    display: flex;
 }
 
 .one,
 .two {
-    margin-right: 60px;
+    margin-right: 20px;
 }
